@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página Web</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi primera web</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Sobre Mí</h2>
-            <p>¡Hola! Soy DesiTech, y esta es mi primera página web.</p>
-        </section>
-        <section>
-            <h2>Proyectos</h2>
-            <ul>
-                <li>Proyecto 1</li>
-                <li>Proyecto 2</li>
-                <li>Proyecto 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Mi primera página Web</p>
-    </footer>
-    <script src="script.js"></script>
+	
+
+	<div class="imgs">
+	<img src="img/aguila.jpg" width="120" height="80" style="display: inline; 
+		padding:3px; border: 2px solid black; margin: 2px;" id="f1" onclick="verFoto(1)"/> 
+
+	<img src="img/tigre.jpg" alt="" width="120" height="80" style="display: inline; padding:3px; border: 2px solid black; margin: 2px;" id="f2" onclick="verFoto(2)"/>
+
+	<img src="img/lemur.jpg" alt="" width="120" height="80" style="display: inline; padding:3px;border: 2px solid black;margin: 2px;" id="f3" onclick="verFoto(3)"/>
+
+	<img src="img/elefante.jpg" alt="" width="120" height="80" style="display: inline; padding:3px; border: 2px solid black;margin: 2px;" id="f4" onclick="verFoto(4)"/>
+
+	<img src="img/camaleon.jpg" alt="" width="120" height="80" style="display: inline; padding:3px; border: 2px solid black;margin: 2px;" id="f5" onclick="verFoto(5)"/>
+
+	<img src="img/loro.jpg" alt="" width="120" height="80" style="display: inline; padding:3px; border: 2px solid black;margin: 2px;" id="f5" onclick="verFoto(6)"/>
+
+	</div>
+
+	<img src="" id="fotoContenedor"></img>
+
+<div  id="cerrar">
+	<input type="button" name="cerrar" id="close" value="Cerrar" onclick="cerrar()"/>
+</div>
+
+
 </body>
 </html>

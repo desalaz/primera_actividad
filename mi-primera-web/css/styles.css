@@ -1,0 +1,58 @@
+
+body{
+	position: relative;
+	display: block;
+	background: #808080 ;
+
+
+}
+	.imgs {
+			position: absolute;
+			display: inline-table;
+			width: 600px;
+			height: 200px;
+			padding: 1px;
+			right: 28%;
+			top: 50%;
+			text-align: center;
+		/*border: 1px solid black;*/
+
+
+		}
+
+
+#fotoContenedor {
+			position: absolute;
+			display: inline-table;
+			width: 700px;
+			height: 400px;
+			padding: 1px;
+			right: 25%;
+			margin-top: 16%;
+			display: none;
+			border:2px solid #000;
+
+		}
+
+		#cerrar{
+
+			position: absolute;
+			display: inline-table;
+			width: 100px;
+			height: 50px;
+			padding: 1px;
+			right: 44%;
+			margin-top: 45%;
+			/*border: 1px solid red;*/
+
+		}
+
+		#close{
+			font-weight:bold;
+			width: 100px;
+			padding: 8px;
+			margin: 5px;
+			background: lightblue;
+			border-style: none;
+			border-radius: 4px;
+		}
