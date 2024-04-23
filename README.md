@@ -3,6 +3,7 @@
 ## Descripción
 Este proyecto es una aplicación web básica para retomar mi actividad a la programación, es un proyecto web sencillo.
 pero es ***muy importante*** para mí. Utiliza la tecnología más *avanzada* y está diseñado para **mejorarme la vida**.
+he añadido una pequeña pagina donde podemos disfrutar de algunas fotografias de animales exoticos, en la cual hay interactividad creada con js, así como lindos colores y estilos realizados con lenguajes de marcas como html y css. 
 
 ## Funcionalidades
 - :rocket: Retomar mi confianza 
